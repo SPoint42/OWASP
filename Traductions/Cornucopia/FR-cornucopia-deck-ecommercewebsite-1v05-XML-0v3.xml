@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cornucopia edition_name="ecommerce website" edition_version="1.05" language="en">
     <deck>
-        <card suit="Validation et encodage des données" number="1" id="VE-1">
+        <card suit="Validation et encodage des donnees" number="1" id="VE-1">
             <attack>Vous avez inventé une nouvelle attaque a l'encontre de la validation et l'encodage de données</attack>
-            <note>Plus d'informations sur ce point dans les fiches OWASP : Input Validation, XSS Prevention, DOM-based XSS Prevention, SQL Injection Prevention, et Query Parameterization</note>
+            <note>Plus d'informations sur cet élément dans les fiches OWASP : Input Validation, XSS Prevention, DOM-based XSS Prevention, SQL Injection Prevention, et Query Parameterization</note>
         </card>
-        <card suit="Validation et encodage des donnée" number="2" id="VE-2">
-            <attack>Brian can gather information about the underlying configurations, schemas, logic, code, software, services and infrastructure due to the content of error messages, or due to poor configuration, or due to the presence of default installation files or old, test, backup or copies of resources, or exposure of source code</attack>
+        <card suit="Validation et encodage des donnees" number="2" id="VE-2">
+            <attack>Brian peut recueillir des informations sur les éléments tels que les configurations, les schémas, la logique, le code, les logiciels, les services et les infrastructures en raison de la teneur des messages d'erreur, ou en raison d'une mauvaise configuration, ou en raison de la présence de fichiers d'installation par défaut, de fichiers anciens, de test, sauvegarde ou des copies de ressources ou de l'exposition du code source.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="69" />
                 <reference_target reference_target_id="107" />
@@ -39,7 +39,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="3" id="VE-3">
-            <attack>Robert can input malicious structured or unstructured data because the allowed protocol format is not being checked, or the structure is not being verified, or the individual data elements are not being validated for format, type, range, length and a whitelist of allowed characters or formats</attack>
+            <attack>Robert peut introduire des données structurées ou non structurées malveillantes parce que les  données ne sont correctement validées; que cela soit le format, le type, l'intervalle, la longueur ou via une liste blanche de caractères autorisés.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="8" />
                 <reference_target reference_target_id="9" />
@@ -95,7 +95,7 @@
             </cross-reference>    
         </card>
         <card suit="Validation et encodage des données" number="4" id="VE-4">
-            <attack>Dave can input malicious data because it is not being checked within the context of the current user and process</attack>
+            <attack>Dave peut introduire des données malveillantes car elles ne sont pas vérifiées dans le contexte du processus ou de l'utilisateur courant.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="8" />
                 <reference_target reference_target_id="10" />
@@ -144,7 +144,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="5" id="VE-5">
-            <attack>Jee can bypass the centralized encoding routines since they are not being used comprehensively, or the wrong encodings are being used for the context</attack>
+            <attack>Jee arrive à passer outre les méthodes d'encodage car elles ne sont pas utilisées correctement ou le mauvais encodage est utilisé par rapport au contexte.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="3" />
                 <reference_target reference_target_id="15" />
@@ -171,7 +171,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="6" id="VE-6">
-            <attack>Jason can bypass the centralized validation routines since they are not being used comprehensively on all inputs</attack>
+            <attack>Jason peut passer outre les méthodes de validation car elle ne sont pas utilisées correctement sur toutes les entrées.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="3" />
                 <reference_target reference_target_id="168" />
@@ -225,7 +225,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="8" id="VE-8">
-            <attack>Sarah can bypass the centralized sanitization routines since they are not being used comprehensively for all sanitization</attack>
+            <attack>Sarah peut passer outre les méthodes d'assainissement de valeurs, car elles ne sont pas utilisées correctement.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="15" />
                 <reference_target reference_target_id="169" />
@@ -247,7 +247,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="9" id="VE-9">
-            <attack>Shamun can bypass input validation or output validation checks because validation failures are not rejected or sanitized</attack>
+            <attack>Shamun peut passer outre la validation de données d'entrée ou de sortie car les données ne sont pas rejetées en cas d'erreur ou assainies.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="6" />
                 <reference_target reference_target_id="21" />
@@ -304,7 +304,7 @@
             </cross-reference>
         </card>
         <card suit="Validation et encodage des données" number="11" id="VE-11">
-            <attack>Dennis has control over input validation, output validation or output encoding code/routines so they can be bypassed</attack>
+            <attack>Dennis a pris le controle sur le code de validation des entrées, des sorties et d'encodage des données permettant de les contourner.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="1" />
                 <reference_target reference_target_id="17" />
@@ -398,8 +398,8 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="1" id="AT-1">
-            <attack>You have invented a new attack against Authentification</attack>
-            <note>Read more about this topic in OWASP’s free Authentification Cheat Sheet</note>
+            <attack>Vous avez inventé une nouvelle attaque contre les mécanismes d'authentification</attack>
+            <note>Plus d'informations sur cet élément dans la fiche OWASP Authentification Cheat Sheet</note>
         </card>
         <card suit="Authentification" number="2" id="AT-2">
             <attack>James can undertake authentication functions (e.g. attempt to log in, log in with stolen credentials, reset the password) without the real user ever being aware this has occurred</attack>
@@ -447,7 +447,7 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="4" id="AT-4">
-            <attack>Sebastien can easily identify user names or can enumerate them</attack>
+            <attack>Sebastien peut facilement identifier les noms des utilisateurs ou les énumérer.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="33" />
                 <reference_target reference_target_id="53" />
@@ -463,7 +463,7 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="5" id="AT-5">
-            <attack>Javier can use default, test or easily guessable credentials to authenticate, or can use an old account or an account not necessary for the application</attack>
+            <attack>Javier peut utiliser des identifiants par défaut, de test, anciens, non utiles à l'application ou facilement trouvable lui permettant d'accéder à l'application.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="54" />
                 <reference_target reference_target_id="175" />
@@ -481,7 +481,7 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="6" id="AT-6">
-            <attack>Sven can reuse a temporary password because the user does not have to change it on first use, or it has too long or no expiry</attack>
+            <attack>Sven peut réutiliser un mot de passe temporaire car l'utilisateur n'a pas besoin de le changer a la première utilisation ou il n'y a aucune date d'expiration ou cette dernière est trop longue.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="37" />
                 <reference_target reference_target_id="45" />
@@ -521,7 +521,7 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="8" id="AT-8">
-            <attack>Kate can by bypass authentication because it does not fail secure (i.e. it defaults to allowing access)</attack>
+            <attack>Kate peut passer outre l'authentification car elle n'échoue pas de manière sécurisée (par exemple: par défaut l'accès est autorisé).</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="28" />
             </cross-reference>
@@ -615,7 +615,7 @@
             </cross-reference>
         </card>
         <card suit="Authentification" number="13" id="AT-13">
-            <attack>Olga can influence or alter authentication code/routines so they can be bypassed</attack>
+            <attack>Olga peut influencer ou alterer le code d'authentification permettant de passer outre les mécanismes.</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="24" />
             </cross-reference>
