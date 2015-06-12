@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cornucopia edition_name="ecommerce website" edition_version="1.05" language="en">
     <deck>
-        <card suit="Data Validation and Encoding" number="1" id="VE-1">
-            <attack>You have invented a new attack against Data Validation and Encoding</attack>
-            <note>Read more about this topic in OWASP’s free Cheat Sheets on Input Validation, XSS Prevention, DOM-based XSS Prevention, SQL Injection Prevention, and Query Parameterization</note>
+        <card suit="Validation et encodage des données" number="1" id="VE-1">
+            <attack>Vous avez inventé une nouvelle attaque a l'encontre de la validation et l'encodage de données</attack>
+            <note>Plus d'informations sur ce point dans les fiches OWASP : Input Validation, XSS Prevention, DOM-based XSS Prevention, SQL Injection Prevention, et Query Parameterization</note>
         </card>
-        <card suit="Data Validation and Encoding" number="2" id="VE-2">
+        <card suit="Validation et encodage des donnée" number="2" id="VE-2">
             <attack>Brian can gather information about the underlying configurations, schemas, logic, code, software, services and infrastructure due to the content of error messages, or due to poor configuration, or due to the presence of default installation files or old, test, backup or copies of resources, or exposure of source code</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="69" />
@@ -38,7 +38,7 @@
                 <reference_target reference_target_id="23" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="3" id="VE-3">
+        <card suit="Validation et encodage des données" number="3" id="VE-3">
             <attack>Robert can input malicious structured or unstructured data because the allowed protocol format is not being checked, or the structure is not being verified, or the individual data elements are not being validated for format, type, range, length and a whitelist of allowed characters or formats</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="8" />
@@ -94,7 +94,7 @@
                 <reference_target reference_target_id="35" />
             </cross-reference>    
         </card>
-        <card suit="Data Validation and Encoding" number="4" id="VE-4">
+        <card suit="Validation et encodage des données" number="4" id="VE-4">
             <attack>Dave can input malicious data because it is not being checked within the context of the current user and process</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="8" />
@@ -143,7 +143,7 @@
                 <reference_target reference_target_id="35" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="5" id="VE-5">
+        <card suit="Validation et encodage des données" number="5" id="VE-5">
             <attack>Jee can bypass the centralized encoding routines since they are not being used comprehensively, or the wrong encodings are being used for the context</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="3" />
@@ -170,7 +170,7 @@
                 <reference_target reference_target_id="17" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="6" id="VE-6">
+        <card suit="Validation et encodage des données" number="6" id="VE-6">
             <attack>Jason can bypass the centralized validation routines since they are not being used comprehensively on all inputs</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="3" />
@@ -194,7 +194,7 @@
                 <reference_target reference_target_id="24" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="7" id="VE-7">
+        <card suit="Validation et encodage des données" number="7" id="VE-7">
             <attack>Jan can craft special payloads to foil input validation because the character set is not specified/enforced, or the data is encoded multiple times, or the data is not fully converted into the same format the application uses (e.g. canonicalization) before being validated, or variables are not strongly typed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="4" />
@@ -224,7 +224,7 @@
                 <reference_target reference_target_id="24" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="8" id="VE-8">
+        <card suit="Validation et encodage des données" number="8" id="VE-8">
             <attack>Sarah can bypass the centralized sanitization routines since they are not being used comprehensively for all sanitization</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="15" />
@@ -246,7 +246,7 @@
                 <reference_target reference_target_id="17" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="9" id="VE-9">
+        <card suit="Validation et encodage des données" number="9" id="VE-9">
             <attack>Shamun can bypass input validation or output validation checks because validation failures are not rejected or sanitized</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="6" />
@@ -270,7 +270,7 @@
                 <reference_target reference_target_id="24" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="10" id="VE-10">
+        <card suit="Validation et encodage des données" number="10" id="VE-10">
             <attack>Jerry can exploit the trust the application places in a source of data (e.g. user-definable data, manipulation of locally stored data, alteration to state data on a client device, lack of verification of identity such as Jerry can pretend to be Colin)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="2" />
@@ -303,7 +303,7 @@
                 <reference_target reference_target_id="14" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="11" id="VE-11">
+        <card suit="Validation et encodage des données" number="11" id="VE-11">
             <attack>Dennis has control over input validation, output validation or output encoding code/routines so they can be bypassed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="1" />
@@ -327,7 +327,7 @@
                 <reference_target reference_target_id="17" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="12" id="VE-12">
+        <card suit="Validation et encodage des données" number="12" id="VE-12">
             <attack>Geoff can inject data into a client or device interpreter because a parameterised interface is not being used, or has not been implemented correctly, or the data has not been encoded correctly for the context, or there is no restrictive policy on code or data includes</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="10" />
@@ -357,7 +357,7 @@
                 <reference_target reference_target_id="17" />
             </cross-reference>
         </card>
-        <card suit="Data Validation and Encoding" number="13" id="VE-13">
+        <card suit="Validation et encodage des données" number="13" id="VE-13">
             <attack>Gabe can inject data into an server-side interpreter (e.g. SQL, OS commands, Xpath, Server JavaScript, SMTP) because a strongly typed parameterised interface is not being used or has not been implemented correctly</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="15" />
@@ -397,11 +397,11 @@
                 <reference_target reference_target_id="20" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="1" id="AT-1">
-            <attack>You have invented a new attack against Authentication</attack>
-            <note>Read more about this topic in OWASP’s free Authentication Cheat Sheet</note>
+        <card suit="Authentification" number="1" id="AT-1">
+            <attack>You have invented a new attack against Authentification</attack>
+            <note>Read more about this topic in OWASP’s free Authentification Cheat Sheet</note>
         </card>
-        <card suit="Authentication" number="2" id="AT-2">
+        <card suit="Authentification" number="2" id="AT-2">
             <attack>James can undertake authentication functions (e.g. attempt to log in, log in with stolen credentials, reset the password) without the real user ever being aware this has occurred</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="47" />
@@ -417,7 +417,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="3" id="AT-3">
+        <card suit="Authentification" number="3" id="AT-3">
             <attack>Muhammad can obtain a user's password or other secrets such as security questions, by observation during entry, or from a local cache, or in transit, or by reading it from some unprotected location, or because it is widely known, or because it never expires, or because the user cannot change her own password</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="36" />
@@ -446,7 +446,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="4" id="AT-4">
+        <card suit="Authentification" number="4" id="AT-4">
             <attack>Sebastien can easily identify user names or can enumerate them</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="33" />
@@ -462,7 +462,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="5" id="AT-5">
+        <card suit="Authentification" number="5" id="AT-5">
             <attack>Javier can use default, test or easily guessable credentials to authenticate, or can use an old account or an account not necessary for the application</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="54" />
@@ -480,7 +480,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="6" id="AT-6">
+        <card suit="Authentification" number="6" id="AT-6">
             <attack>Sven can reuse a temporary password because the user does not have to change it on first use, or it has too long or no expiry</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="37" />
@@ -495,7 +495,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="7" id="AT-7">
+        <card suit="Authentification" number="7" id="AT-7">
             <attack>Cecilia can use brute force and dictionary attacks against one or many accounts without limit, or these attacks are simplified due to insufficient complexity, length, expiration and re-use requirements for passwords</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="33" />
@@ -520,7 +520,7 @@
                 <reference_target reference_target_id="27" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="8" id="AT-8">
+        <card suit="Authentification" number="8" id="AT-8">
             <attack>Kate can by bypass authentication because it does not fail secure (i.e. it defaults to allowing access)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="28" />
@@ -535,7 +535,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="9" id="AT-9">
+        <card suit="Authentification" number="9" id="AT-9">
             <attack>Claudia can undertake more critical functions because authentication requirements are too weak, or there is no requirement to re-authenticate for these</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="55" />
@@ -553,7 +553,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="10" id="AT-10">
+        <card suit="Authentification" number="10" id="AT-10">
             <attack>Pravin can bypass authentication controls because a centralized standard, tested and approved authentication module/framework/service, separate to the resource being requested, is not being used</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="25" />
@@ -572,7 +572,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="11" id="AT-11">
+        <card suit="Authentification" number="11" id="AT-11">
             <attack>Mark can access resources or services because there is no authentication requirement, or it was assumed authentication would be undertaken by some other system, or was performed in some previous action</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="23" />
@@ -590,7 +590,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="12" id="AT-12">
+        <card suit="Authentification" number="12" id="AT-12">
             <attack>Jaime can bypass authentication because it is not enforced comprehensively across all entry points, modules, functions, content and other data, or is not applied with equal rigor for all types of authentication functionality (e.g. register, password change, password recovery, log out, administration)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="23" />
@@ -614,7 +614,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authentication" number="13" id="AT-13">
+        <card suit="Authentification" number="13" id="AT-13">
             <attack>Olga can influence or alter authentication code/routines so they can be bypassed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="24" />
@@ -631,11 +631,11 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="1" id="SM-1">
-            <attack>You have invented a new attack against Session Management</attack>
-            <note>Read more about this topic in OWASP’s free Cheat Sheets on Session Management, and Cross Site Request Forgery (CSRF) Prevention</note>
+        <card suit="Gestion des sessions" number="1" id="SM-1">
+            <attack>You have invented a new attack against Gestion des sessions</attack>
+            <note>Read more about this topic in OWASP’s free Cheat Sheets on Gestion des sessions, and Cross Site Request Forgery (CSRF) Prevention</note>
         </card>
-        <card suit="Session Management" number="2" id="SM-2">
+        <card suit="Gestion des sessions" number="2" id="SM-2">
             <attack>William has control over the generation of session identifiers</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="58" />
@@ -656,7 +656,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="3" id="SM-3">
+        <card suit="Gestion des sessions" number="3" id="SM-3">
             <attack>Ryan can use a single account in parallel since concurrent sessions are allowed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="68" />
@@ -665,7 +665,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="4" id="SM-4">
+        <card suit="Gestion des sessions" number="4" id="SM-4">
             <attack>Alison can set session identification cookies on another web application because the domain and path are not restricted sufficiently</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="59" />
@@ -685,7 +685,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="5" id="SM-5">
+        <card suit="Gestion des sessions" number="5" id="SM-5">
             <attack>John can predict or guess session identifiers because they are not changed when the user's role alters (e.g. pre and post authentication) and when switching between non-encrypted and encrypted communications, or are not sufficiently long and random, or are not changed periodically</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="60" />
@@ -713,7 +713,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="6" id="SM-6">
+        <card suit="Gestion des sessions" number="6" id="SM-6">
             <attack>Gary can take over a user's session because there is a long or no inactivity timeout, or a long or no overall session time limit, or the same session can be used from more than one device/location</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="64" />
@@ -734,7 +734,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="7" id="SM-7">
+        <card suit="Gestion des sessions" number="7" id="SM-7">
             <attack>Casey can utilize Adam's session after he has finished, because there is no log out function, or he cannot easily log out, or log out does not properly terminate the session</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="62" />
@@ -752,7 +752,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="8" id="SM-8">
+        <card suit="Gestion des sessions" number="8" id="SM-8">
             <attack>Matt can abuse long sessions because the application does not require periodic re-authentication to check if privileges have changed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="96" />
@@ -764,7 +764,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="9" id="SM-9">
+        <card suit="Gestion des sessions" number="9" id="SM-9">
             <attack>Ivan can steal session identifiers because they are sent over insecure channels, or are logged, or are revealed in error messages, or are included in URLs, or are accessible un-necessarily by code which the attacker can influence or alter</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="69" />
@@ -791,7 +791,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="10" id="SM-10">
+        <card suit="Gestion des sessions" number="10" id="SM-10">
             <attack>Marce can forge requests because per-session, or per-request for more critical actions, strong random tokens or similar are not being used for actions that change state</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="73" />
@@ -811,7 +811,7 @@
                 <reference_target reference_target_id="18" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="11" id="SM-11">
+        <card suit="Gestion des sessions" number="11" id="SM-11">
             <attack>Jeff can resend an identical repeat interaction (e.g. HTTP request, signal, button press) and it is accepted, not rejected</attack>
             <cross-reference cross-reference-source="3">
                 <reference_target reference_target_id="IE5" />
@@ -824,7 +824,7 @@
                 <reference_target reference_target_id="14" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="12" id="SM-12">
+        <card suit="Gestion des sessions" number="12" id="SM-12">
             <attack>Salim can bypass session management because it is not applied comprehensively and consistently across the application</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="58" />
@@ -840,7 +840,7 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Session Management" number="13" id="SM-13">
+        <card suit="Gestion des sessions" number="13" id="SM-13">
             <attack>Peter can bypass the session management controls because they have been self-built and/or are weak, instead of using a standard framework or approved tested module</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="58" />
@@ -857,11 +857,11 @@
                 <reference_target reference_target_id="28" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="1" id="AZ-1">
-            <attack>You have invented a new attack against Authorization</attack>
+        <card suit="Habilitations" number="1" id="AZ-1">
+            <attack>You have invented a new attack against Habilitations</attack>
             <note>Read more about this topic in OWASP’s Development and Testing Guides</note>
         </card>
-        <card suit="Authorization" number="2" id="AZ-2">
+        <card suit="Habilitations" number="2" id="AZ-2">
             <attack>Tim can influence where data is sent or forwarded to</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="44" />
@@ -882,7 +882,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="3" id="AZ-3">
+        <card suit="Habilitations" number="3" id="AZ-3">
             <attack>Christian can access (read, write, update or delete) information, which they should not have permission to, through another mechanism that does have permission (e.g. search indexer, logger, reporting), or because it is cached, or kept for longer than necessary, or other information leakage</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="51" />
@@ -915,7 +915,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="4" id="AZ-4">
+        <card suit="Habilitations" number="4" id="AZ-4">
             <attack>Kelly can bypass authorization controls because they do not fail securely (i.e. they default to allowing access)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="79" />
@@ -933,7 +933,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="5" id="AZ-5">
+        <card suit="Habilitations" number="5" id="AZ-5">
             <attack>Chad can access resources (including services, processes, AJAX, Flash, video, images, documents, temporary files, session data, system properties, configuration data, registry settings, logs) he should not be able to due to missing authorization, or due to excessive privileges (e.g. not using the principle of least privilege)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="70" />
@@ -987,7 +987,7 @@
                 <reference_target reference_target_id="13" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="6" id="AZ-6">
+        <card suit="Habilitations" number="6" id="AZ-6">
             <attack>Eduardo can access data he does not have permission to, even though he has permission to the form/page/URL/entry point</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="81" />
@@ -1016,7 +1016,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="7" id="AZ-7">
+        <card suit="Habilitations" number="7" id="AZ-7">
             <attack>Yuanjing can access application functions, objects, or properties he is not authorized to access</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="81" />
@@ -1046,7 +1046,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="8" id="AZ-8">
+        <card suit="Habilitations" number="8" id="AZ-8">
             <attack>Tom can bypass business rules by altering the usual process sequence or flow, or by undertaking the process in the incorrect order, or by manipulating date and time values used by the application, or by using valid features for unintended purposes, or by otherwise manipulating control data</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="10" />
@@ -1081,7 +1081,7 @@
                 <reference_target reference_target_id="12" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="9" id="AZ-9">
+        <card suit="Habilitations" number="9" id="AZ-9">
             <attack>Mike can misuse an application by using a valid feature too fast, or too frequently, or other way that is not intended, or consumes the application's resources, or causes race conditions, or over-utilizes a feature</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="94" />
@@ -1111,7 +1111,7 @@
                 <reference_target reference_target_id="35" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="10" id="AZ-10">
+        <card suit="Habilitations" number="10" id="AZ-10">
             <attack>Richard can bypass the centralized authorization controls since they are not being used comprehensively on all interactions</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="78" />
@@ -1139,7 +1139,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="11" id="AZ-11">
+        <card suit="Habilitations" number="11" id="AZ-11">
             <attack>Dinis can access security configuration information, or access control lists</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="90" />
@@ -1160,7 +1160,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="12" id="AZ-12">
+        <card suit="Habilitations" number="12" id="AZ-12">
             <attack>Christopher can inject a command that the application will run at a higher privilege level</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="209" />
@@ -1177,7 +1177,7 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Authorization" number="13" id="AZ-13">
+        <card suit="Habilitations" number="13" id="AZ-13">
             <attack>Ryan can influence or alter authorization controls and permissions, and can therefore bypass them</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="77" />
@@ -1201,11 +1201,11 @@
                 <reference_target reference_target_id="11" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="1" id="CR-1">
-            <attack>You have invented a new attack against Cryptography</attack>
+        <card suit="Chiffrement" number="1" id="CR-1">
+            <attack>You have invented a new attack against Chiffrement</attack>
             <note>Read more about this topic in OWASP’s free Cheat Sheets on Cryptographic Storage, and Transport Layer Protection</note>
         </card>
-        <card suit="Cryptography" number="2" id="CR-2">
+        <card suit="Chiffrement" number="2" id="CR-2">
             <attack>Kyun can access data because it has been obfuscated rather than using an approved cryptographic function</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="105" />
@@ -1220,7 +1220,7 @@
                 <reference_target reference_target_id="29" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="3" id="CR-3">
+        <card suit="Chiffrement" number="3" id="CR-3">
             <attack>Axel can modify transient or permanent data (stored or in transit), or source code, or updates/patches, or configuration data, because it is not subject to integrity checking</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="92" />
@@ -1253,7 +1253,7 @@
                 <reference_target reference_target_id="14" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="4" id="CR-4">
+        <card suit="Chiffrement" number="4" id="CR-4">
             <attack>Paulo can access data in transit that is not encrypted, even though the channel is encrypted</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="37" />
@@ -1276,7 +1276,7 @@
                 <reference_target reference_target_id="30" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="5" id="CR-5">
+        <card suit="Chiffrement" number="5" id="CR-5">
             <attack>Kyle can bypass cryptographic controls because they do not fail securely (i.e. they default to unprotected)</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="103" />
@@ -1293,7 +1293,7 @@
                 <reference_target reference_target_id="29" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="6" id="CR-6">
+        <card suit="Chiffrement" number="6" id="CR-6">
             <attack>Romain can read and modify data in transit (e.g. cryptographic secrets, credentials, session identifiers, personal and commercially-sensitive data), in communications within the application, or between the application and users, or between the application and external systems</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="36" />
@@ -1320,7 +1320,7 @@
                 <reference_target reference_target_id="29" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="7" id="CR-7">
+        <card suit="Chiffrement" number="7" id="CR-7">
             <attack>Gunter can intercept or modify encrypted data in transit because the protocol is poorly deployed, or weakly configured, or certificates are invalid, or certificates are not trusted, or the connection can be degraded to a weaker or un-encrypted communication</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="75" />
@@ -1350,7 +1350,7 @@
                 <reference_target reference_target_id="30" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="8" id="CR-8">
+        <card suit="Chiffrement" number="8" id="CR-8">
             <attack>Eoin can access stored business data (e.g. passwords, session identifiers, PII, cardholder data) because it is not securely encrypted or securely hashed</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="30" />
@@ -1377,7 +1377,7 @@
                 <reference_target reference_target_id="31" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="9" id="CR-9">
+        <card suit="Chiffrement" number="9" id="CR-9">
             <attack>Andy can bypass random number generation, random GUID generation, hashing and encryption functions because they have been self-built and/or are weak</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="60" />
@@ -1400,7 +1400,7 @@
                 <reference_target reference_target_id="33" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="10" id="CR-10">
+        <card suit="Chiffrement" number="10" id="CR-10">
             <attack>Susanna can break the cryptography in use because it is not strong enough for the degree of protection required, or it is not strong enough for the amount of effort the attacker is willing to make</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="104" />
@@ -1424,7 +1424,7 @@
                 <reference_target reference_target_id="33" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="11" id="CR-11">
+        <card suit="Chiffrement" number="11" id="CR-11">
             <attack>Justin can read credentials for accessing internal or external resources, services and others systems because they are stored in an unencrypted format, or saved in the source code</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="35" />
@@ -1444,7 +1444,7 @@
                 <reference_target reference_target_id="29" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="12" id="CR-12">
+        <card suit="Chiffrement" number="12" id="CR-12">
             <attack>Randolph can access or predict the master cryptographic secrets</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="35" />
@@ -1463,7 +1463,7 @@
                 <reference_target reference_target_id="29" />
             </cross-reference>
         </card>
-        <card suit="Cryptography" number="13" id="CR-13">
+        <card suit="Chiffrement" number="13" id="CR-13">
             <attack>Dan can influence or alter cryptography code/routines (encryption, hashing, digital signatures, random number and GUID generation) and can therefore bypass them</attack>
             <cross-reference cross-reference-source="1">
                 <reference_target reference_target_id="31" />
